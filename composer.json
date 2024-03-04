@@ -1,0 +1,17 @@
+{
+    "name": "asagick/portfolio",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Asagick\\Portfolio\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahdi",
+            "email": "mahdibarati696@gmail.com"
+        }
+    ],
+    "require": {}
+}
