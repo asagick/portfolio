@@ -9,8 +9,8 @@
     },
     "authors": [
         {
-            "name": "Mahdi",
-            "email": "mahdibarati696@gmail.com"
+            "name": "AsaGick",
+            "email": "asagicks@gmail.com"
         }
     ],
     "require": {},
@@ -20,7 +20,7 @@
                 "AsaGick\\Portfolio\\Providers\\PortfolioServiceProvider"
             ],
             "aliases": {
-                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+                "Portfolio": "AsaGick\\Portfolio\\Facades\\Portfolio"
             }
         }
     }
