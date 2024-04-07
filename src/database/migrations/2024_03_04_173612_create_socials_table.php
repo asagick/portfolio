@@ -13,9 +13,10 @@ return new class extends Migration
     {
         Schema::create('socials', function (Blueprint $table) {
             $table->id();
-            $table->string('username');
-            $table->string('social');
-            $table->unsignedBigInteger('socialable_id');
+            $table->string('username')->nullable();
+            $table->string('platform')->nullable();
+            $table->string('logo_url')->nullable();
+            $table->unsignedBigInteger('socialable_id')->nullable();
             $table->string('socialable_type');
             $table->timestamps();
         });
