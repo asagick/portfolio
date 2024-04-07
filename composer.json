@@ -17,10 +17,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AsaGick\\Portfolio\\Providers"
+                "AsaGick\\Portfolio\\PortfolioServiceProvider"
             ],
             "aliases": {
-                "Portfolio": "AsaGick\\Portfolio\\Facades"
+                "Portfolio": "AsaGick\\Portfolio\\Facades\\Portfolio"
             }
         }
     }

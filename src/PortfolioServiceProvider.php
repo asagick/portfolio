@@ -1,6 +1,6 @@
 <?php
 
-namespace AsaGick\Portfolio\Providers;
+namespace AsaGick\Portfolio;
 
 use App\Models\Experience;
 use AsaGick\Portfolio\Services\Portfolio;
